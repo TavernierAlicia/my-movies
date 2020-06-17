@@ -36,7 +36,7 @@ class Movies extends Component {
   render() {
     const { movies } = this.state;
     return (
-      <div>
+      <div className="card-container">
         {movies.map((movie) => (
           <CardMovie movie={movie} />
         ))}

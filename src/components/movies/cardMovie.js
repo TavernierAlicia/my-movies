@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 const CardMovie = ({ movie }) => (
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '15rem' }}>
     <Card.Img variant="top" src={movie.path} />
     <Card.Body>
       <Card.Title>{movie.name}</Card.Title>
