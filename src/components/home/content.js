@@ -1,9 +1,9 @@
 import React from 'react';
-import Counter from '../counter';
+import Movies from '../movies';
 
 const Content = () => (
   <main>
-    <Counter />
+    <Movies />
   </main>
 );
 

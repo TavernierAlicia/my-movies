@@ -10,8 +10,8 @@ class Home extends Component {
     // Initial State
     this.state = {
       title: 'React Movies',
-      mail: 'Enter your mail',
-      pwd: 'Enter your password',
+      // mail: 'Enter your mail',
+      // pwd: 'Enter your password',
     };
   }
 
